@@ -1,0 +1,12 @@
+                                                              Lista de bancos de dados
+      Nome      |     Dono      | Codificação | Provedor de localidade | Ordenação |  Ctype  | Locale | Regras ICU |      Privilégios de acesso      
+----------------+---------------+-------------+------------------------+-----------+---------+--------+------------+---------------------------------
+ indicadores_br | pipeline_user | UTF8        | libc                   | C.UTF-8   | C.UTF-8 |        |            | =Tc/pipeline_user              +
+                |               |             |                        |           |         |        |            | pipeline_user=CTc/pipeline_user
+ postgres       | postgres      | UTF8        | libc                   | C.UTF-8   | C.UTF-8 |        |            | 
+ template0      | postgres      | UTF8        | libc                   | C.UTF-8   | C.UTF-8 |        |            | =c/postgres                    +
+                |               |             |                        |           |         |        |            | postgres=CTc/postgres
+ template1      | postgres      | UTF8        | libc                   | C.UTF-8   | C.UTF-8 |        |            | =c/postgres                    +
+                |               |             |                        |           |         |        |            | postgres=CTc/postgres
+(4 linhas)
+
