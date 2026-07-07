@@ -1,6 +1,6 @@
 # Pipeline de Indicadores Econômicos Brasileiros
 
-Pipeline ETL que coleta dados econômicos do Banco Central do Brasil,transforma e carrega em um data warehouse local com dashboard analítico.
+Pipeline ETL que coleta dados econômicos do Banco Central do Brasil, transforma e carrega em um data warehouse local com dashboard analítico.
 
 ## Arquitetura
 API BACEN → Bronze (JSON) → Silver (CSV) → Gold (PostgreSQL) → Metabase
