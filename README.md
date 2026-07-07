@@ -49,6 +49,7 @@ python3 src/carga.py
 
 ## Estrutura do projeto
 
+```bash
 ├── data/
 │   ├── bronze/    # dados brutos da API
 │   └── silver/    # dados limpos
@@ -57,3 +58,4 @@ python3 src/carga.py
 │   ├── transformacao.py # limpeza com Pandas
 │   └── carga.py         # carga no PostgreSQL
 └── requirements.txt
+```
